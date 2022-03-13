@@ -69,3 +69,5 @@ induck_button = Button(image=induck_img, highlightthickness=0, command=threading
 induck_button.grid(row=1, column=3)
 
 window.mainloop()
+
+# how to compile py.exe : pyinstaller -w -F 'fileName.py'
